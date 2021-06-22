@@ -1,0 +1,14 @@
+@import url("//fonts.googleapis.com/css?family=Press+Start+2P");
+body {
+  background-color: black;
+  color: greenyellow;
+  font-family: "Press Start 2P";
+}
+.screen {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#error {
+  overflow-x: hidden;
+}
