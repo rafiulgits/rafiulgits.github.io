@@ -35,9 +35,7 @@ function playSound() {
       .then((_) => {
         // Autoplay started!
       })
-      .catch((error) => {
-        alert("error");
-      });
+      .catch((error) => {});
   }
 }
 
