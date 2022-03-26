@@ -4,5 +4,5 @@
 Deploying by
 
 ```
-yarn deploy -- -m "message"
+yarn deploy -m "message"
 ```
