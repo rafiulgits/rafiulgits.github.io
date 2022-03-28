@@ -2,7 +2,7 @@ import { Layout } from "components/Layout";
 
 export const TimelinePage = () => {
   return (
-    <Layout>
+    <Layout title="Timeline">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
