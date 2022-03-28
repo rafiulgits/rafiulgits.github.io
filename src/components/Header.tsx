@@ -1,18 +1,6 @@
 import { BsCircleFill } from "react-icons/bs";
-import { useUrlQueryRouter } from "hooks/UrlQueryRouter";
 
 export const Header = () => {
-  const router = useUrlQueryRouter();
-
-  const getNavItemClassName = (name: string): string => {
-    switch (router.currentPage.toLowerCase()) {
-      case name:
-        return "nav-link active border border-danger bg-light text-danger";
-      default:
-        return "nav-link active border border-light bg-light";
-    }
-  };
-
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
@@ -28,14 +16,26 @@ export const Header = () => {
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          style={{ border: "none" }}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav nav-pills">
             <li className="nav-item">
-              <a className={getNavItemClassName("works")} href="?page=works">
+              <a
+                className="nav-link active border border-light bg-light"
+                href="?page=works"
+              >
                 Works
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link active border border-light bg-light"
+                href="?page=timeline"
+              >
+                Timeline
               </a>
             </li>
           </ul>
