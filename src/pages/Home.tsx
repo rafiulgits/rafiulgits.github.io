@@ -1,5 +1,6 @@
 import { Layout } from "components/Layout";
 import { BsLinkedin, BsGithub, BsTwitter, BsInstagram } from "react-icons/bs";
+import { FaRegPaperPlane } from "react-icons/fa";
 
 const SocialItem = (props: {
   name: string;
@@ -56,6 +57,13 @@ export const HomePage = () => {
                   name="@rafiulphotos"
                   url="https://instagram.com/rafiulphotos"
                   icon={<BsInstagram />}
+                />
+              </li>
+              <li>
+                <SocialItem
+                  name="@mail"
+                  url="mailto:mdrafi900@gmail.com"
+                  icon={<FaRegPaperPlane />}
                 />
               </li>
             </ul>
