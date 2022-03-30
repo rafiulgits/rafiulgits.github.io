@@ -8,29 +8,38 @@ export const WorksPage = () => {
           <div className="col-lg-8 col-md-10 col-sm-12 ">
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
-                <h5>IotHub</h5>
+                <h5>MyBebsha</h5>
                 <p>
-                  Cloud based IoT system solution. IotHub provides an abstract
-                  solution of any IoT infrastructure including Broker system,
-                  API management, Authentication, Agent management system, so
-                  that it can be extended to any preferable IoT solution like
-                  home automation system, supply chain management.
+                  MyBebsha is a platform to digitalize small and medium scale
+                  business. MyBebsha platform provide online shop solution and
+                  point of sale (POS) solution softwares in SaaS model (Software
+                  as a Service).
                 </p>
                 <figure className="text-end">
-                  <a
-                    className="a-none"
-                    href="https://rafiulgits.github.io/IotHub/"
-                  >
-                    - Read Documentation
+                  <a className="a-none" href="https://mybebsa.io">
+                    - Visit MyBebsha (Development Edition)
                   </a>
                 </figure>
-
                 <div>
-                  <span className="badge bg-success m-1">.NET Core</span>
-                  <span className="badge bg-warning m-1 text-dark">MQTT</span>
-                  <span className="badge bg-success m-1">MongoDB</span>
-                  <span className="badge bg-info m-1">SignalR</span>
-                  <span className="badge bg-info m-1">React Dashboard</span>
+                  <span className="badge bg-info m-1">Go</span>
+                  <span
+                    className="badge m-1"
+                    style={{ backgroundColor: "#1471bd" }}
+                  >
+                    Typescript
+                  </span>
+
+                  <span className="badge bg-danger m-1">Redis</span>
+                  <span
+                    className="badge m-1"
+                    style={{ backgroundColor: "#f26002" }}
+                  >
+                    RabbitMQ
+                  </span>
+                  <span className="badge bg-info m-1">Flutter</span>
+                  <span className="badge bg-dark m-1">Microservice</span>
+                  <span className="badge bg-dark m-1">OTP</span>
+                  <span className="badge bg-dark m-1">Image Service</span>
                 </div>
               </li>
 
@@ -106,38 +115,29 @@ export const WorksPage = () => {
               </li>
 
               <li className="list-group-item mt-3">
-                <h5>MyBebsha</h5>
+                <h5>IotHub</h5>
                 <p>
-                  MyBebsha is a platform to digitalize small and medium scale
-                  business. MyBebsha platform provide online shop solution and
-                  point of sale (POS) solution softwares in SaaS model (Software
-                  as a Service).
+                  Cloud based IoT system solution. IotHub provides an abstract
+                  solution of any IoT infrastructure including Broker system,
+                  API management, Authentication, Agent management system, so
+                  that it can be extended to any preferable IoT solution like
+                  home automation system, supply chain management.
                 </p>
                 <figure className="text-end">
-                  <a className="a-none" href="https://mybebsa.io">
-                    - Visit MyBebsha (Development Edition)
+                  <a
+                    className="a-none"
+                    href="https://rafiulgits.github.io/IotHub/"
+                  >
+                    - Read Documentation
                   </a>
                 </figure>
-                <div>
-                  <span className="badge bg-info m-1">Go</span>
-                  <span
-                    className="badge m-1"
-                    style={{ backgroundColor: "#1471bd" }}
-                  >
-                    Typescript
-                  </span>
 
-                  <span className="badge bg-danger m-1">Redis</span>
-                  <span
-                    className="badge m-1"
-                    style={{ backgroundColor: "#f26002" }}
-                  >
-                    RabbitMQ
-                  </span>
-                  <span className="badge bg-info m-1">Flutter</span>
-                  <span className="badge bg-dark m-1">Microservice</span>
-                  <span className="badge bg-dark m-1">OTP</span>
-                  <span className="badge bg-dark m-1">Image Service</span>
+                <div>
+                  <span className="badge bg-success m-1">.NET Core</span>
+                  <span className="badge bg-warning m-1 text-dark">MQTT</span>
+                  <span className="badge bg-success m-1">MongoDB</span>
+                  <span className="badge bg-info m-1">SignalR</span>
+                  <span className="badge bg-info m-1">React Dashboard</span>
                 </div>
               </li>
             </ul>
