@@ -9,25 +9,21 @@ export const TimelinePage = () => {
             <div id="content">
               <ul className="timeline">
                 <li className="event" data-date="2021 - Present">
-                  <h3>MyBebsha Startup</h3>
+                  <h3>LogiQbits (Co-Founder)</h3>
                   <p>
-                    MyBebsha platform provide online shop solution and point of
-                    sale (POS) solution softwares in SaaS model (Software as a
-                    Service).
+                    <a className="a-none" href="https://logiqbits.com">
+                      www.logiqbits.com
+                    </a>
                   </p>
                   <p>
-                    <a className="a-none" href="https://mybebsa.io">
-                      Visit MyBebsha Platform
+                    <a className="a-none" href="https://shopap.io">
+                      www.shopap.io
                     </a>
                   </p>
                 </li>
                 <li className="event" data-date="Jan 2020 - Jul 2020">
-                  <h3>Industrial Internship</h3>
-                  <p>
-                    <a className="a-none" href="https://www.cefalo.com/en/">
-                      Cefalo Bangladesh Limited
-                    </a>
-                  </p>
+                  <h3>Cefalo Bangladesh Limited</h3>
+                  <p>Trainee Software Engineeer</p>
                   <p>
                     <a
                       className="a-none"

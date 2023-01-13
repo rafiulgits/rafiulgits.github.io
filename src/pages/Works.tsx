@@ -8,16 +8,16 @@ export const WorksPage = () => {
           <div className="col-lg-8 col-md-10 col-sm-12 ">
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
-                <h5>MyBebsha</h5>
+                <h5>SHOPAP</h5>
                 <p>
-                  MyBebsha is a platform to digitalize small and medium scale
-                  business. MyBebsha platform provide online shop solution and
+                  SHOPAP is a platform to digitalize small and medium scale
+                  business. SHOPAP platform provide online shop solution and
                   point of sale (POS) solution softwares in SaaS model (Software
                   as a Service).
                 </p>
                 <figure className="text-end">
-                  <a className="a-none" href="https://mybebsa.io">
-                    - Visit MyBebsha (Development Edition)
+                  <a className="a-none" href="https://shopap.io">
+                    - Visit SHOPAP
                   </a>
                 </figure>
                 <div>
@@ -38,8 +38,7 @@ export const WorksPage = () => {
                   </span>
                   <span className="badge bg-info m-1">Flutter</span>
                   <span className="badge bg-dark m-1">Microservice</span>
-                  <span className="badge bg-dark m-1">OTP</span>
-                  <span className="badge bg-dark m-1">Image Service</span>
+                  <span className="badge bg-dark m-1">SaaS</span>
                 </div>
               </li>
 
